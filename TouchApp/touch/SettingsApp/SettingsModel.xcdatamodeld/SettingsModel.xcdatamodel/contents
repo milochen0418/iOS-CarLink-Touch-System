@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="RouteSettingEntity" representedClassName="RouteSettingEntity" syncable="YES">
+        <attribute name="mEncodedPolyline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFromWhere" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mIsEnable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsFri" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsMon" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsSat" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsSun" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsThu" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsTue" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsWed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mToWhere" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TrafficIncidentEntity" representedClassName="TrafficIncidentEntity" syncable="YES">
+        <attribute name="mAlertcDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCriticalityDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDirectionLocalDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPointDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPointLocalDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mRoadwayDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mRoadwayLocalDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTrafficItemDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTrafficItemTypeDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTrafficSignId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WeatherEntity" representedClassName="WeatherEntity" syncable="YES">
+        <attribute name="m1HighTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m1Icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m1LowTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m1MonthDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m1WeekDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2HighTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2Icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2LowTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2MonthDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m2WeekDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3HighTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3Icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3LowTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3MonthDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m3WeekDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m4HighTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m4Icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m4LowTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m4MonthDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m4WeekDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m5HighTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m5Icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m5LowTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m5MonthDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="m5WeekDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCurCityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCurTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFeelLikeTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mHighTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mHumidityTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mIsSelectC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLocId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLowTmp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPrecipitation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mSunRise" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mSunSet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTimeInterval" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mWeatherId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mWindDegree" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mWindDirection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mWindSpeed" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WeatherSettingEntity" syncable="YES">
+        <attribute name="mAttribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RouteSettingEntity" positionX="160" positionY="192" width="128" height="255"/>
+        <element name="TrafficIncidentEntity" positionX="160" positionY="192" width="128" height="255"/>
+        <element name="WeatherEntity" positionX="160" positionY="192" width="128" height="735"/>
+        <element name="WeatherSettingEntity" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>

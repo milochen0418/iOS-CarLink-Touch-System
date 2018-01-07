@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="RouteSettingEntity" representedClassName="RouteSettingEntity" syncable="YES">
+        <attribute name="mEncodedPolyline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mFromWhere" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mIsFri" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsMon" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsSat" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsSun" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsThu" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsTue" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mIsWed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mToWhere" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TrafficIncidentEntity" representedClassName="TrafficIncidentEntity" syncable="YES">
+        <attribute name="mAlertcDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mCriticalityDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDirectionLocalDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPointDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mPointLocalDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mRoadwayDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mRoadwayLocalDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTrafficItemDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTrafficItemTypeDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTrafficSignId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RouteSettingEntity" positionX="160" positionY="192" width="128" height="240"/>
+        <element name="TrafficIncidentEntity" positionX="160" positionY="192" width="128" height="255"/>
+    </elements>
+</model>

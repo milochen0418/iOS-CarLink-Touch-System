@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50b" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AddedItem" representedClassName="AddedItem" syncable="YES">
+        <attribute name="mDirection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDirtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mLng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mSpeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStars" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mVotes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CameraItem" representedClassName="CameraItem" syncable="YES">
+        <attribute name="mDirection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDirtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mLng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mSpeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStars" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mVotes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ConfirmedItem" representedClassName="ConfirmedItem" syncable="YES">
+        <attribute name="mId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DeletedItem" representedClassName="DeletedItem" syncable="YES">
+        <attribute name="mId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadedItem" representedClassName="DownloadedItem" syncable="YES">
+        <attribute name="mDirection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mDirtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mLng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mSpeed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mStars" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mVotes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CameraItem" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="ConfirmedItem" positionX="153" positionY="-18" width="128" height="60"/>
+        <element name="DeletedItem" positionX="162" positionY="-9" width="128" height="60"/>
+        <element name="DownloadedItem" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="AddedItem" positionX="160" positionY="192" width="128" height="180"/>
+    </elements>
+</model>
